@@ -7,10 +7,6 @@ body{
    margin: 0;
    font-family: 'Roboto', sans-serif;
 }
-.trombi-body-modif{
-    margin: 0;
-    padding: 0;
-}
 .trombi-desktop{
     background-color: #F0F2F5;
     padding: 26px 0px;
@@ -19,6 +15,7 @@ body{
     background-color: white;
 }
 .trombi-hearder{
+    padding: 8px;
     border: 5px solid #DDDFE2;
     border-left: none;
     border-right: none;
@@ -26,6 +23,7 @@ body{
 }
 .trombi-logo{
     display: flex;
+    justify-content: space-between;
     padding: 4px 0px;
 }
 .trombi-vector{
@@ -36,17 +34,15 @@ body{
 .trombi-search{
     display: flex;
     padding: 0px 8px;
+    border: none;
     background-color: #DDDFE2 ;
-    border-radius: 12px;
+    border-radius: 18px;
 }
 .search{
     background-color: #DDDFE2;
+    padding: 0px 8px;
     border: none;
-    border-radius: 12px;
-}
-header{
-    margin: 0px 8px;
-    padding: 8px;
+    border-radius: 18px;
 }
 .header-h1{
     color: #1877F2;
@@ -160,3 +156,10 @@ footer{
         text-align: left;
     }
 }
+@media(min-width:730px){
+    .trombi-body{
+        display: flex; 
+        width: 720px;
+        margin: 0 auto;
+        align-items: center;
+    } 
