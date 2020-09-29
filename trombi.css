@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   background-color: white;
+   padding: 0;
+   margin: 0;
+   font-family: 'Roboto', sans-serif;
+}
+.trombi-body-modif{
+    margin: 0;
+    padding: 0;
+}
+.trombi-desktop{
+    background-color: #F0F2F5;
+    padding: 26px 0px;
+}
+.trombi-desktop-modif{
+    background-color: white;
+}
+.trombi-hearder{
+    border: 3px solid #DDDFE2;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.trombi-logo{
+    display: flex;
+    padding: 4px 0px;
+}
+.trombi-vector{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0px;
+}
+.trombi-search{
+    display: flex;
+    padding: 0px 8px;
+    background-color: #DDDFE2 ;
+    border-radius: 12px;
+}
+.search{
+    background-color: #DDDFE2;
+    border: none;
+    border-radius: 12px;
+}
+header{
+    margin: 0px 8px;
+    padding: 8px;
+}
+.header-h1{
+    color: #1877F2;
+    text-align: center;
+    margin: 8px 0px;
+    font-family: 'PT Sans', sans-serif;
+}
+.trombi-form-position{
+    width: calc(100% - 1rem);
+    margin-left: auto;
+    margin-right: auto;
+}
+form{
+    background: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 8px;
+    padding: 8px;
+}
+.form-modif{
+    border-radius: none;
+    box-shadow: none;
+}
+.trombi-form{
+    margin: 8px;
+    padding: 8px;
+}
+.trombi-form-modif{
+    margin: 12px 0px;
+    padding: 0;
+}
+.trombi-connect{
+    color: white;
+    background-color: #1877F2;
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    padding: 1rem;
+}
+.trombi-password{
+    color: #1877F2;
+    text-decoration: none;
+    margin: 8px;
+    padding: 8px;
+}
+.trombi-input{
+    width: 100%;
+    height: 52px;
+    border: 1px solid #DDDFE2;
+    border-radius: 8px;
+}
+.trombi-label{
+    display: inline-block;
+    padding: 8px 0px;
+}
+input::placeholder{
+    color: #777777;
+    padding: 0px 4px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 8px 0px;
+    text-decoration: none;
+}
+.trombi-account{
+    text-align: center;
+}
+.trombi-date{
+    display: flex;
+}
+.trombi-contact{
+    display: block;
+}
+.trombi-color{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+}
+.trombi-condition{
+    color: black;
+    text-decoration: underline;
+}
+.btn{
+    color: white;
+    background: #42B72A;
+    text-align: center;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px;
+}
+footer{
+    text-align: center;
+    margin: 8px;
+    padding: 8px;
+    background-color: white;
+}
+.trombi-footer{
+    color: #737373;
+}
+@media(min-width:730px){
+    .trombi-body{
+        display: flex; 
+        width: 720px;
+        margin: 0 auto;
+        align-items: center;
+    } 
+
+    .header-h1{
+        text-align: left;
+    }
+}

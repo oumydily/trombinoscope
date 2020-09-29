@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Modifier mon profil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="trombi.css">
+</head>
+
+<body>
+
+    <div class="trombi-desktop-modif">
+        <div>
+            <header class="trombi-hearder">
+                <nav>
+                    <div class="trombi-logo">
+                        <div class="trombi-logo">
+                        <img src="images/trombi-logo.svg" alt="logo de Trombinoscope">
+                        </div>
+                        <div class="trombi-search">
+                            <img src="images/loupe-vector.svg">
+                            <input type="text" class="search" placeholder="Rechercher" id="champsearch" required minlength="3">
+                        </div>
+                    </div>
+                    <div class="trombi-vector">
+                        <img src="images/home-logo.svg" alt="vector de home">
+                        <img src="images/cam-logo.svg" alt="vector de vidéos">
+                        <img src="images/friend-logo.svg" alt="vector de friends">
+                        <img src="images/cloche-logo.svg" alt="vector de notifications">
+                    </div>
+                </nav>
+            </header>
+
+
+            <div class="trombi-form-position">
+                <form class="form-modif">
+                    <h1>Modifier mon profil</h1>
+                    <div class="trombi-form-modif">
+                        <label for="champnom" class="trombi-label">Nom</label>
+                        <input type="text" class="trombi-input" placeholder="Nom" id="champnom" required minlength="3">
+                    </div>
+                    <div class="trombi-form-modif">
+                        <label for="champprenom" class="trombi-label">Prénom</label>
+                        <input type="text" class="trombi-input" placeholder="Prénom" id="champprenom" required
+                            minlength="3">
+                    </div>
+                    <div class="trombi-form-modif">
+                        <label for="champemail" class="trombi-label">Adresse e-mail</label>
+                        <input type="email" class="trombi-input" placeholder="Email" id="champemail" required>
+                    </div>
+                    <div class="trombi-form-modif">
+                        <label for="champpassword" class="trombi-label">Mot de passe</label>
+                        <input type="password" class="trombi-input" placeholder="Mot de passe" id="champpassword"
+                            required minlength="3" maxlength="15">
+                    </div>
+                    <div class="trombi-form-modif">
+                        <label for="champpasswordconfirmation" class="trombi-label">Confirmation du mot de passe</label>
+                        <input type="password" class="trombi-input" placeholder="Retapez votre mot de passe"
+                            id="champpasswordconfirmation" required minlength="3" maxlength="15">
+                    </div>
+                    <div class="trombi-form-modif">
+                        <label for="champnumbertelephone" class="trombi-label">Numéro de téléphone</label>
+                        <input type="tel" class="trombi-input" placeholder="Numéro de téléphone"
+                            id="champnumbertelephone" required minlength="3" maxlength="10">
+                    </div>
+                    <div class="trombi-form-modif">
+                        <label for="champprefernumber" class="trombi-label">Chiffre préféré</label>
+                        <input type="number" class="trombi-input" placeholder="Chiffre préféré" id="champprefernumber"
+                            required min="1" max="9">
+                    </div>
+                    <div class="trombi-form-modif">
+                        <p>Date de naissance</p>
+                        <div class="trombi-date">
+                            <label for="champday" class="trombi-label"></label>
+                            <select name="Jour" class="trombi-input" id="champday" required>
+                                <option value="">Jour</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+
+                            <label for="champmonth" class="trombi-label"></label>
+                            <select name="Mois" class="trombi-input" id="champmonth" required>
+                                <option value="">Mois</option>
+                                <option value="Janvier">Janvier</option>
+                                <option value="Février">février</option>
+                                <option value="Mars">Mars</option>
+                                <option value="Avril">Avril</option>
+                                <option value="Mai">Mai</option>
+                            </select>
+
+                            <label for="champyear" class="trombi-label"></label>
+                            <select name="Year" class="trombi-input" id="champyear" required>
+                                <option value="">Year</option>
+                                <option value="1986">1986</option>
+                                <option value="1987">1987</option>
+                                <option value="1988">1988</option>
+                                <option value="1989">1989</option>
+                                <option value="1990">1990</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="trombi-form-modif">
+                        <p>Moyen de contact préféré</p>
+                        <div class="trombi-contact">
+                            <input type="radio" id="boxemail" name="contact" required>
+                            <label for="boxemail">E-mail</label>
+                        </div>
+                        <div class="trombi-contact">
+                            <input type="radio" id="boxsms" name="contact" required>
+                            <label for="boxsms">SMS</label>
+                        </div>
+                        <div class="trombi-contact">
+                            <input type="radio" id="boxcourrier" name="contact" required>
+                            <label for="boxcourrier">Courrier</label>
+                        </div>
+                    </div>
+                    <div class="trombi-form-modif">
+                        <p>Couleur préférée</p>
+                        <input type="color" id="colorred" class="trombi-color" value="#E94C4C">
+                        <label for="colorred"></label>
+                    </div>
+                    <div class="trombi-form-modif">
+                        <p>Photo de profil</p>
+                        <label for="profilpic"></label>
+                        <input type="file" id="profilpic" accept="image/png, image/jpeg" required>
+                    </div>
+                    <div class="trombi-form-modif trombi-account">
+                        <input type="submit" class="trombi-connect" value="Valider les modifications">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="trombi-footer">Trombinoscope © 2020</p>
+    </footer>
+
+
+</body>
+
+</html>
