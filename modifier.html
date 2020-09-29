@@ -12,28 +12,32 @@
 <body>
 
     <div class="trombi-desktop-modif">
-        <div>
-            <header class="trombi-header">
-                <nav>
-                    <div class="trombi-logo">
-                        <div class="trombi-nav">
+        <header class="trombi-header">
+            <nav>
+                <div class="trombi-logo">
+                    <div class="trombi-nav">
                         <img src="images/trombi-logo.svg" alt="logo de Trombinoscope">
-                        </div>
-                        <div class="trombi-search">
-                            <img src="images/loupe-vector.svg">
-                            <input type="text" class="search" placeholder="Rechercher" id="champsearch" required minlength="3">
-                        </div>
                     </div>
-                    <div class="trombi-vector">
-                        <img src="images/home-logo.svg" alt="vector de home">
-                        <img src="images/cam-logo.svg" alt="vector de vidéos">
-                        <img src="images/friend-logo.svg" alt="vector de friends">
-                        <img src="images/cloche-logo.svg" alt="vector de notifications">
+                    <div class="trombi-search">
+                        <img src="images/loupe-vector.svg">
+                        <input type="text" class="search" placeholder="Rechercher" id="champsearch" required
+                            minlength="3">
                     </div>
-                </nav>
-            </header>
+                </div>
+                <div class="trombi-vector">
+                    <div class="trombi-vector-modif">
+                    <img src="images/home-logo.svg" alt="vector de home">
+                    </div>
+                    <div class="trombi-vector-modif">
+                    <img src="images/cam-logo.svg" alt="vector de vidéos">
+                    </div>
+                    <img src="images/friend-logo.svg" alt="vector de friends">
+                    <img src="images/cloche-logo.svg" alt="vector de notifications">
+                </div>
+            </nav>
+        </header>
 
-
+        <div class="container">
             <div class="trombi-form-position">
                 <form class="form-modif">
                     <h1>Modifier mon profil</h1>
@@ -62,8 +66,8 @@
                     </div>
                     <div class="trombi-form-modif">
                         <label for="champnumbertelephone" class="trombi-label">Numéro de téléphone</label>
-                        <input type="tel" class="trombi-input" value="06 06 06 06 06"
-                            id="champnumbertelephone" required minlength="3" maxlength="10">
+                        <input type="tel" class="trombi-input" value="06 06 06 06 06" id="champnumbertelephone" required
+                            minlength="3" maxlength="10">
                     </div>
                     <div class="trombi-form-modif">
                         <label for="champprefernumber" class="trombi-label">Chiffre préféré</label>
@@ -79,8 +83,8 @@
                             </select>
 
                             <label for="champmonth" class="trombi-label"></label>
-                            <select name="Mois" class="trombi-input" id="champmonth" required>                             
-                                <option value="Janvier">Janvier</option>         
+                            <select name="Mois" class="trombi-input" id="champmonth" required>
+                                <option value="Janvier">Janvier</option>
                             </select>
 
                             <label for="champyear" class="trombi-label"></label>
