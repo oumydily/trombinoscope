@@ -157,10 +157,12 @@ footer{
     }
 }
 @media(min-width:730px){
-    .trombi-body{
-        display: flex; 
-        width: 720px;
-        margin: 0 auto;
-        align-items: center;
+    nav{
+       display: flex; 
+       justify-content: space-between;
     } 
+
+    .trombi-vector{
+        padding: 6px
+    }
 }
