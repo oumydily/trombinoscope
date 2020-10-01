@@ -26,6 +26,9 @@ body{
     justify-content: space-between;
     padding: 4px 0px;
 }
+.trombi-nav{
+    margin-right: 12px;
+}
 .trombi-vector{
     display: flex;
     justify-content: space-between;
@@ -168,7 +171,7 @@ footer{
     } 
 
     .trombi-vector-modif{
-        margin: ;
+        margin: 24px;
         
         
     }
